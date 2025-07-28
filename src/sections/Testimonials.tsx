@@ -11,7 +11,7 @@ export const TestimonialsSection = () => {
                 <SectionHeader
                     heading1="Professional Feedback"
                     heading2="What Colleagues and Mentors Say About Me"
-                    paragraph="I've had the privilege of working with talented teams and experienced leaders throughout my journey. Here's what they've shared about my work ethic, collaboration, and technical capabilities."
+                    paragraph="I have had the privilege of working with talented teams and experienced leaders throughout my journey. Here's what they've shared about my work ethic, collaboration, and technical capabilities."
                 />
                 <div
                     className="mt-12 lg:mt-20 flex overflow-x-clip py-4 -my-4"

@@ -2,15 +2,12 @@
     "name": "fizzy-prince",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://github.com/Bittu-hub08/portfolio",
 
     "scripts": {
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "lint": "next lint",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d dist"
+        "lint": "next lint"
     },
     "dependencies": {
         "@svgr/webpack": "^8.1.0",

@@ -18,7 +18,7 @@ export const ContactSection = ({ id }: { id: string }) => {
                                 Let&apos;s Build Smart, Scalable Software Together
                             </h2>
                             <p className="text-sm md:text-base mt-2">
-                                With hands-on experience in developing enterprise-grade applications using Angular, React, Spring Boot, and cloud-native tools like Docker and Kubernetes, I turn complex ideas into reliable, efficient, and high-performing web solutions. Whether you're modernizing a legacy system or launching something new — I'm here to help drive your vision forward.
+                              With hands-on experience in building enterprise-grade applications using Angular, React, Spring Boot, and cloud-native tools like Docker and Kubernetes, I specialize in transforming complex requirements into robust, scalable, and high-performing web solutions. Whether you are modernizing legacy infrastructure or launching a new product, I am ready to help turn your vision into reality.
                             </p>
                         </div>
                         <a href={`mailto:${email}`}>
