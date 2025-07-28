@@ -9,9 +9,9 @@ export const TestimonialsSection = () => {
         <div className="py-16 lg:py-24">
             <section className="container" id={testimonialsSectionId}>
                 <SectionHeader
-                    heading1="Happy Clients"
-                    heading2="What Clients Say About Me"
-                    paragraph="Don't just take my word for it. See what my clients have to say about my work."
+                    heading1="Professional Feedback"
+                    heading2="What Colleagues and Mentors Say About Me"
+                    paragraph="I've had the privilege of working with talented teams and experienced leaders throughout my journey. Here's what they've shared about my work ethic, collaboration, and technical capabilities."
                 />
                 <div
                     className="mt-12 lg:mt-20 flex overflow-x-clip py-4 -my-4"

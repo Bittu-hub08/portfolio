@@ -3,7 +3,7 @@ import { Card } from "@/components/Card";
 import { SectionHeader } from "@/components/SectionHeader";
 import Image from "next/image";
 import bookImage from "@/assets/images/srimad-bhagavad-gita-cover.webp";
-import mapImage from "@/assets/images/map.png";
+import mapImage from "@/assets/images/maps.jpeg";
 import smileMemoji from "@/assets/images/memoji-smile.png";
 import { CardHeader } from "@/components/CardHeader";
 import { ToolboxItemsRow } from "@/components/ToolboxItemsRow";
@@ -20,7 +20,7 @@ export const AboutSection = ({ id }: { id: string }) => {
                 <SectionHeader
                     heading1="About Me"
                     heading2="A Glimpse Into My World"
-                    paragraph="Learn more about who I am, what I do, and what inspires me."
+                    paragraph="Get to know my work, mindset, and what fuels my passion for building scalable, reliable software."
                 />
                 <div className="mt-20 flex flex-col gap-8">
                     <div className="grid gap-8 grid-cols-1 md:grid-cols-5 lg:grid-cols-3">
@@ -45,12 +45,12 @@ export const AboutSection = ({ id }: { id: string }) => {
                             <ToolboxItemsRow
                                 items={toolBoxItems}
                                 className="mt-4 md:mt-6"
-                                itemsWrapperClassName="animate-scroll-left [animation-duration:30s]"
+                                itemsWrapperClassName="animate-scroll-left [animation-duration:45s]"
                             />
                             <ToolboxItemsRow
                                 items={toolBoxItems}
                                 className="mt-6"
-                                itemsWrapperClassName="animate-scroll-right [animation-duration:15s]"
+                                itemsWrapperClassName="animate-scroll-right [animation-duration:30s]"
                             />
                         </Card>
                     </div>

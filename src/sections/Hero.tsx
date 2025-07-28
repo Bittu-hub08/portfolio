@@ -5,7 +5,7 @@ import grainImage from "@/assets/images/grain.jpg";
 import StarIcon from "@/assets/icons/star.svg";
 import SparkleIcon from "@/assets/icons/sparkle.svg";
 import { HeroOrbit } from "@/components/HeroOrbit";
-import { contactSectionId, projectsSectionId } from "./constants";
+import { contactSectionId, projectsSectionId,certificateSectionId } from "./constants";
 
 export const HeroSection = ({ id }: { id: string }) => {
     return (
@@ -104,22 +104,30 @@ export const HeroSection = ({ id }: { id: string }) => {
                         <div className="bg-green-500 size-2.5 rounded-full relative z-0">
                             <div className="absolute inset-0 bg-green-500 rounded-full animate-ping -z-10"></div>
                         </div>
-                        <div className="text-sm font-medium">Available for new projects</div>
+                        <div className="text-sm font-medium">Available for new opportunities</div>
                     </div>
                 </div>
                 <div className="max-w-lg mx-auto">
                     <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">
-                        Building Exceptional User Experiences
+                        Hi, I&apos;m <span className="text-emerald-300">Bittu Kumar</span>, a Full Stack Developer
+                        <span className="text-emerald-300">.</span>
+                        <br />
                     </h1>
                     <p className="mt-4 text-center font-light text-white/80 tracking-wide md:text-lg">
-                        I specialize in transforming designs into functional, high-performing web-applications.
-                        Let&apos;s dicuss your next project.
+                        As a software engineer experienced in Angular, React, Spring Boot, and cloud-native technologies, I specialize in building enterprise-grade web applications with a strong focus on performance, maintainability, and user experience. Let&apos;s collaborate to bring reliability, scalability, and innovation to your next digital initiative.
+                        
                     </p>
                 </div>
                 <div className="flex flex-col md:flex-row items-center justify-center gap-4 mt-8">
                     <a href={"#" + projectsSectionId}>
                         <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
-                            <span className="font-semibold">Explore My Work</span>
+                            <span className="font-semibold">Work Experiences</span>
+                            <ArrowDown className="size-4" />
+                        </button>
+                    </a>
+                    <a href={"#" + certificateSectionId}>
+                        <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
+                            <span className="font-semibold">Certificates</span>
                             <ArrowDown className="size-4" />
                         </button>
                     </a>

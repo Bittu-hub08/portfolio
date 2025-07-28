@@ -3,9 +3,9 @@ import CheckIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
-import { portfolioProjects } from "../../profile.config";
+import { certificates } from "../../profile.config";
 
-export const ProjectsSection = ({ id }: { id: string }) => {
+export const CertificateSection = ({ id }: { id: string }) => {
     function highlightFirstWord(title: string): import("react").ReactNode {
         const [first, ...rest] = title.split(" ");
         return (
@@ -19,12 +19,12 @@ export const ProjectsSection = ({ id }: { id: string }) => {
         <section className="pb-16 lg:py-24" id={id}>
             <div className="container">
                 <SectionHeader
-                    heading1="IMPACT THROUGH INNOVATION"
-                    heading2="Driving Digital Transformation with Full-Stack Expertise"
-                    paragraph="See how I solve real-world problems through robust full-stack solutions and modern cloud technologies."
+                    heading1="COMMITTED TO CONTINUOUS LEARNING"
+                    heading2="Building Expertise Through Industry-Recognized Certifications"
+                    paragraph="I actively invest in expanding my technical and architectural knowledge through well-structured certification programs. Here are some credentials that reflect my dedication to staying ahead in cloud, system design, cybersecurity, and data engineering."
                 />
                 <div className="flex flex-col gap-20 mt-10 md:mt-20">
-                    {portfolioProjects.map((project, index) => (
+                    {certificates.map((project, index) => (
                         <Card
                             key={project.title}
                             className="px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:px-20 lg:pt-16 sticky"
@@ -34,9 +34,7 @@ export const ProjectsSection = ({ id }: { id: string }) => {
                             {/* <div className={`lg:gap-16 ${project.image ? "lg:grid lg:grid-cols-2" : "flex flex-col"}`}> */}
                                 <div className="lg:pb-8">
                                     <div className="inline-flex gap-2 uppercase font-bold bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text tracking-widest md:tracking-normal text-sm md:text-base">
-                                        <span>{project.company}</span>
-                                        <span>&bull;</span>
-                                        <span>{project.year}</span>
+                                        <span>{project.issuer}</span>
                                     </div>
                                     <h3 className="font-serif text-2xl md:text-4xl lg:max-w-sm mt-2 md:mt-5">
                                         {project.title}

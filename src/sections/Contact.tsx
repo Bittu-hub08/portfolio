@@ -15,16 +15,15 @@ export const ContactSection = ({ id }: { id: string }) => {
                     <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center">
                         <div>
                             <h2 className="font-serif text-2xl md:text-3xl">
-                                Let&apos;s create something amazing together
+                                Let&apos;s Build Smart, Scalable Software Together
                             </h2>
                             <p className="text-sm md:text-base mt-2">
-                                Ready to bring your next project to life? Let&apos;s connect and discuss how I can help
-                                you achieve your goals.
+                                With hands-on experience in developing enterprise-grade applications using Angular, React, Spring Boot, and cloud-native tools like Docker and Kubernetes, I turn complex ideas into reliable, efficient, and high-performing web solutions. Whether you're modernizing a legacy system or launching something new — I'm here to help drive your vision forward.
                             </p>
                         </div>
                         <a href={`mailto:${email}`}>
                             <button className="bg-gray-900 text-white inline-flex items-center gap-2 px-6 h-12 rounded-xl w-max">
-                                <span className="font-semibold">Contact Me</span>
+                                <span className="font-semibold">Start the Conversation</span>
                                 <ArrowUpRightIcon className="size-4" />
                             </button>
                         </a>

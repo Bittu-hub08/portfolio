@@ -23,11 +23,11 @@ import localSocialPostmanPage from "@/assets/images/local-social-postman-page.pn
 import profileCardsGeneratorPage from "@/assets/images/profile-cards-generator-page.png";
 import markshifyLandingPage from "@/assets/images/markshify-landing-page.png";
 import memojiAvatar3 from "@/assets/images/memoji-avatar-3.png";
-import grownUpMarketingAvatar from "@/assets/images/grown-up-marketing.webp";
-import shanzilAvatar from "@/assets/images/shanzil-avatar.webp";
+import grownUpMarketingAvatar from "@/assets/images/nims.jpeg";
+import aniruddhajpeg from "@/assets/images/aniruddha.jpeg";
 
 const CONFIG = {
-    email: "profile.princeraj@gmail.com",
+    email: "kumar.bittu1007@gmail.com",
     toolboxItems: [
         {
             title: "HTML5",
@@ -38,6 +38,38 @@ const CONFIG = {
             iconType: CssIcon,
         },
         {
+            title: "C++",
+            iconType: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
+        },
+         {
+    title: "Java",
+    iconType: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
+  },
+  {
+    title: "SQL",
+    iconType: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg", // or use PostgreSQL etc.
+  },
+  {
+    title: "Angular",
+    iconType: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg",
+  },
+  {
+    title: "Spring Boot",
+    iconType: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg",
+  },
+  {
+    title: "Apache Spark",
+    iconType: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apache/apache-original.svg", // or use custom Spark SVG
+  },
+  {
+    title: "Docker",
+    iconType: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+  },
+  {
+    title: "Kubernetes",
+    iconType: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-plain.svg",
+  },
+        {
             title: "JavaScript",
             iconType: SquareJsIcon,
         },
@@ -46,32 +78,12 @@ const CONFIG = {
             iconType: SquareTsIcon,
         },
         {
-            title: "Bun",
-            iconType: BunIcon,
-        },
-        {
             title: "Node.js",
             iconType: NodeJsIcon,
         },
         {
-            title: "Tailwind CSS",
-            iconType: TailwindIcon,
-        },
-        {
-            title: "Solidity",
-            iconType: SolidityIcon,
-        },
-        {
-            title: "Nest",
-            iconType: NestIcon,
-        },
-        {
             title: "Swagger",
             iconType: SwaggerIcon,
-        },
-        {
-            title: "Electron",
-            iconType: ElectronIcon,
         },
         {
             title: "Postman",
@@ -82,20 +94,8 @@ const CONFIG = {
             iconType: ReactIcon,
         },
         {
-            title: "Vite",
-            iconType: ViteIcon,
-        },
-        {
             title: "MongoDB",
             iconType: MongoDBIcon,
-        },
-        {
-            title: "Firebase",
-            iconType: FirebaseIcon,
-        },
-        {
-            title: "Polypane",
-            iconType: PolypaneIcon,
         },
         {
             title: "Git",
@@ -115,9 +115,9 @@ const CONFIG = {
         },
     ],
     hobbies: [
-        {
-            title: "Singing Alone",
-            emoji: "🎤",
+           {
+            title: "Cricket",
+            emoji: "🏏",
             left: "5%",
             top: "3%",
             zIndex: 0,
@@ -125,7 +125,14 @@ const CONFIG = {
         {
             title: "Photography",
             emoji: "📸",
-            left: "50%",
+            left: "30%",
+            top: "3%",
+            zIndex: 0,
+        },
+            {
+            title: "Bike Rides",
+            emoji: "🏍️",
+            left: "60%",
             top: "3%",
             zIndex: 0,
         },
@@ -144,9 +151,9 @@ const CONFIG = {
             zIndex: -10,
         },
         {
-            title: "Meetups",
-            emoji: "👥",
-            left: "70%",
+            title: "Adventures",
+            emoji: "🚵",
+            left: "65%",
             top: "45%",
             zIndex: 0,
         },
@@ -167,76 +174,114 @@ const CONFIG = {
     ],
     footerLinks: [
         {
-            title: "Twitter",
-            href: "https://x.com/theprinceraj",
+            title: "Email",
+            href: "mailto:kumar.bittu1007@gmail.com",
         },
         {
             title: "Github",
-            href: "https://github.com/theprinceraj",
+            href: "https://github.com/Bittu-hub08",
         },
         {
             title: "LinkedIn",
-            href: "https://www.linkedin.com/in/theprinceraj",
+            href: "https://www.linkedin.com/in/bittu-kumar-08m",
         },
     ],
     portfolioProjects: [
         {
-            company: "Local Social",
-            year: "2025",
-            title: "Backend for Social Media Platform",
+            company: "Societe Generale",
+            year: "2024–Today",
+            title: "Web Platform for DAYONE",
             results: [
-                { title: "Encompassing 30+ endpoints" },
-                { title: "Implemented 5+ core features" },
-                { title: "Database incorporating geospatial data" },
+                { title: "Encompassing 40+ dynamic UI components & REST endpoints" },
+                { title: "Implemented CI/CD pipelines, Spring Batch data flows, Spark-based performance modules" },
+                { title: "Backend built with Spring Boot, integrated with Angular/React frontends" },
+                { title: "Containerized using Docker & orchestrated via Kubernetes" },
+                { title: "Achieved 90%+ code coverage with JUnit and Sonar integration" },
+                { title: "Outcome: 25% increase in user engagement, 30+ hours saved monthly in deployment" },
             ],
-            link: "/images/flowchart-local-social.png",
-            image: localSocialPostmanPage,
-            linkText: "View Flowchart",
         },
         {
-            company: "Markshify",
-            year: "2024",
-            title: "OCR-Based Marksheet Scanner",
+            company: "Societe Generale",
+            year: "2022-2024",
+            title: "SGMarkets Legacy Modernization (Quartz)",
             results: [
-                { title: "Automated marksheet to CSV conversion" },
-                { title: "Extracts 20+ fields of data" },
-                { title: "Custom utility functions for data extraction" },
+                { title: "Migrated legacy monolith to microservices-based architecture" },
+                { title: "Implemented 10+ new React modules & optimized Spring Boot APIs" },
+                { title: "Enhanced SQL performance by ~80%" },
+                { title: "Reduced session login time by 2 minutes per user" },
+                { title: "Resulted in ~€30,000 annual savings in operational efficiency" },
+                { title: "Outcome: 50% reduction in component development time" },
             ],
-            link: "https://github.com/theprinceraj/Markshify",
-            image: markshifyLandingPage,
-            linkText: "View Code",
         },
         {
-            company: "Profile Cards API",
-            year: "2023",
-            title: "Dynamic Profile Cards",
+            company: "Samsung Research",
+            year: "2022-Internship",
+            title: "Android Messaging Module",
             results: [
-                { title: "Sharable and personalized profile cards" },
-                { title: "With debouncing and field validation" },
-                { title: "99.95% uptime leveraging Vercel" },
+                { title: "Collaborated across 3+ teams to deliver seamless feature updates" },
+                { title: "Focused on responsiveness, debugging, and UI stability" },
             ],
-            link: "https://prince.is-a.dev/Profile-Cards-API/",
-            image: profileCardsGeneratorPage,
-            linkText: "View Live Site",
         },
+    ],
+    certificates:[
+        {
+    issuer: "AlgoExpert",
+    year: "2023",
+    title: "System Design",
+    results: [
+      { title: "Designed scalable, distributed system architectures" },
+      { title: "Learned techniques like load balancing, caching, sharding, and eventual consistency" },
+      { title: "Practiced real-world designs for systems like Twitter, Dropbox, and Slack" },
+    ],
+  },
+  {
+    issuer: "Microsoft",
+    year: "2023",
+    title: "AZ-900: Azure Fundamentals",
+    results: [
+      { title: "Built foundational understanding of Azure cloud services and deployment models" },
+      { title: "Learned key concepts of IaaS, PaaS, and SaaS" },
+      { title: "Explored cost management, SLAs, compliance, and cloud security" },
+    ],
+  },
+  {
+    issuer: "Coursera",
+    year: "2022",
+    title: "Basics of Cybersecurity",
+    results: [
+      { title: "Understood core principles like confidentiality, integrity, and availability" },
+      { title: "Learned about threats like phishing, malware, and social engineering" },
+      { title: "Built awareness of secure authentication and encryption techniques" },
+    ],
+  },
+  {
+    issuer: "Societe Generale",
+    year: "2023",
+    title: "Data Engineering",
+    results: [
+      { title: "Worked on real-time and batch data pipelines using Apache Spark and Spring Batch" },
+      { title: "Learned data ingestion, transformation, and performance tuning techniques" },
+      { title: "Explored enterprise-scale data architecture and optimization patterns" },
+    ],
+  },
     ],
     testimonials: [
         {
-            name: "Savan",
-            position: "Owner @ Grown Up Marketing",
-            text: "I just wanted to take a moment to say a big thank you for creating my marketing agency's website. It’s live now and I absolutely love your work — it's even better than I imagined! I really appreciate the effort and creativity you put into it. From now on, whatever projects I get through my agency, I would love to work with you. Looking forward to doing some amazing work together!",
+            name: "Nimish",
+            position: "Ex Senior Software Engineer @ Societe Generale",
+            text: "Consistent, reliable, quick learner, clean code, strong debugging, great with deadlines, proactive, team-oriented, helpful in peer reviews, solid Java/Spring skills, scalable thinking, takes ownership, calm under pressure, always delivers, responsive, thoughtful, detail-focused.",
             avatar: grownUpMarketingAvatar,
         },
         {
-            name: "Shanzil",
-            position: "Marketing Head @ TotalEdge",
-            text: "Prince has been one of the best backened developers we found, he is a really great person to work with and treats our work as his own. Amazing guy, love from studentpreneur.club",
-            avatar: shanzilAvatar,
+            name: "Aniruddha",
+            position: "Colleague @ Societe Generale",
+            text: "High-performing, dependable, cloud-native mindset, Docker/Kubernetes ready, eager to learn, Angular wizard, React sharpness, writes tests, documents code, communicates clearly, understands product needs, delivers impact, collaborative spirit, full-stack efficient, agile-friendly, respectful, curious, adaptive.",
+            avatar: aniruddhajpeg,
         },
         {
-            name: "Daniel White",
-            position: "CEO @ InnovateCo",
-            text: "Alex's ability to create seamless user experiences is unmatched. Our website has seen a significant increase in conversions since launching the new design. We couldn't be happier.",
+            name: "Pradeep",
+            position: "Manager @ Societe Generale",
+            text: "Structured, disciplined, CI/CD focused, ownership-driven, backend clarity, confident communicator, approachable, analytical, DevOps aligned, stable under load, no hand-holding needed, quality-first, flexible, approachable, respectful, consistent feedback, refactoring expert, batch processing aware.",
             avatar: memojiAvatar3,
         },
     ],
@@ -247,4 +292,5 @@ export const toolBoxItems = CONFIG.toolboxItems;
 export const hobbies = CONFIG.hobbies;
 export const footerLinks = CONFIG.footerLinks;
 export const portfolioProjects = CONFIG.portfolioProjects;
+export const certificates = CONFIG.certificates;
 export const testimonials = CONFIG.testimonials;
