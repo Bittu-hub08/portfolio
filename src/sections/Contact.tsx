@@ -21,23 +21,12 @@ export const ContactSection = ({ id }: { id: string }) => {
                               With hands-on experience in building enterprise-grade applications using Angular, React, Spring Boot, and cloud-native tools like Docker and Kubernetes, I specialize in transforming complex requirements into robust, scalable, and high-performing web solutions. Whether you are modernizing legacy infrastructure or launching a new product, I am ready to help turn your vision into reality.
                             </p>
                         </div>
-                        {/* <a href={`mailto:${email}`}>
+                        <a href={`mailto:${email}`}>
                             <button className="bg-gray-900 text-white inline-flex items-center gap-2 px-6 h-12 rounded-xl w-max">
                                 <span className="font-semibold">Start the Conversation</span>
                                 <ArrowUpRightIcon className="size-4" />
                             </button>
-                        </a> */}
-                        <a
-  href={`https://mail.google.com/mail/?view=cm&to=${email}`}
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <button className="bg-gray-900 text-white inline-flex items-center gap-2 px-6 h-12 rounded-xl w-max">
-    <span className="font-semibold">Start the Conversation</span>
-    <ArrowUpRightIcon className="size-4" />
-  </button>
-</a>
-
+                        </a>
                     </div>
                 </div>
             </section>
