@@ -268,20 +268,20 @@ const CONFIG = {
     testimonials: [
         {
             name: "Nimish",
-            position: "Ex Senior Software Engineer @ Societe Generale",
-            text: "Consistent, reliable, quick learner, clean code, strong debugging, great with deadlines, proactive, team-oriented, helpful in peer reviews, solid Java/Spring skills, scalable thinking, takes ownership, calm under pressure, always delivers, responsive, thoughtful, detail-focused.",
+            position: "Colleague @ Societe Generale",
+            text: "Consistent and reliable developer with strong Java/Spring skills and scalable thinking. Quick learner, proactive, and calm under pressure. Writes clean code, excels at debugging, meets deadlines, supports peers in reviews, and delivers thoughtful, detail-focused solutions.",
             avatar: grownUpMarketingAvatar,
         },
         {
             name: "Aniruddha",
-            position: "Colleague @ Societe Generale",
-            text: "High-performing, dependable, cloud-native mindset, Docker/Kubernetes ready, eager to learn, Angular wizard, React sharpness, writes tests, documents code, communicates clearly, understands product needs, delivers impact, collaborative spirit, full-stack efficient, agile-friendly, respectful, curious, adaptive.",
+            position: "Ex Senior Software Engineer @ Societe Generale",
+            text: "Bittu is a dependable, high-performing teammate with strong cloud-native skills. Expert in Angular, sharp with React, and confident in Docker/Kubernetes. Writes clean, tested code, understands product needs, and works collaboratively to deliver real impact.",
             avatar: aniruddhajpeg,
         },
         {
             name: "Pradeep",
             position: "Manager @ Societe Generale",
-            text: "Structured, disciplined, CI/CD focused, ownership-driven, backend clarity, confident communicator, approachable, analytical, DevOps aligned, stable under load, no hand-holding needed, quality-first, flexible, approachable, respectful, consistent feedback, refactoring expert, batch processing aware.",
+            text: "Structured and disciplined developer with strong CI/CD focus and backend clarity. Ownership-driven, analytical, DevOps aligned, and stable under pressure. Delivers quality-first solutions, excels at refactoring, understands batch processing, and communicates with confidence and respect.",
             avatar: memojiAvatar3,
         },
     ],
